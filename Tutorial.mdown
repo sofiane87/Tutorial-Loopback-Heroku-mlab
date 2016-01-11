@@ -11,18 +11,52 @@ Basically just open a shell window and type the following line :
 
 ```bash 
 $ npm install -g strongloop  
-```
+``
 
 for more information just go their website. 
 
 ## Step 2 : creating the local server file
 
-To do so, you will have to create a folder in which you will save all your server files and then run a specific command : 
+To do so, you will have to go to a folder in which you will save all your server files and then run a specific command : 
 
 ``` bash
-	$ mkdir Test-Server
 	$ slc loopback 
 ```
 
 then simply follow the instruction on the screen which means choosing a name for the server and the associated files. I would advise you to choose the same name to avoid confusions. 
 
+### Step 3 : configuring the MongoLab connection 
+
+First you need to create a Mongolab account, to do so you need to go to the [mongolab website](https://mongolab.com/signup/ "Signup Page") and signup .
+
+Once you've signed up, you will need to create a new Data base. To do so, just loging and click on the "create new" button. Select the appropriate type of Database you would like (there is a free option if you just wand to try it)
+
+
+Then, you will have to click on the database created ( which is now available on the main screen), and go to the Users tab and create a new user. this will give the proper credentials in order to properly communicate with the Database. 
+
+once the user  is signed up, just copy past the URI link provided above you will need it in the few next steps . 
+
+once this is done. we will go back to the folder wher the server files and saved, for the sake of this tutorial lets assume you called your Server "TestServer". In that case you will have to open the file TestSertver/server/datasources.json
+
+add the following lines to the main braket :  
+
+
+```json
+
+  "mongodb": {
+    "url": <your URI link>,
+    "name": "mongodb",
+    "defaultForType": "mongodb",
+    "connector": "loopback-connector-mongodb"
+  },
+
+```
+
+The URI link should start with something like : "mongodb://<dbuser>:<dbpassword>@ds..."  do not forget to replace the <dbuser> and <dbpassword> by your password and user information without the "<" and ">" symbols. 
+
+
+once this is done, you will have to open the file TestSertver/server/datasources.json and change all the lines corresponding to "datasource" to the following line : 
+
+```json 
+	"dataSource": "mongodb"
+```
