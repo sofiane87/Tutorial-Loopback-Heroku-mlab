@@ -1,0 +1,12 @@
+
+## Introduction 
+
+This tutorial aims to provide a quick example of how to set up a loopback server that is linked to a mongolab Database and then to set it online through a heroku account.
+
+## Step 1 : installing Loopback
+
+this one is quite the easy step. all you have to do is to follow the instructions you can find on the loopback website [loopback website](http://loopback.io/ "Loopback"). 
+
+Basically just open a shell window and type the following line : 
+
+`` $ npm install -g strongloop  ``
