@@ -9,4 +9,20 @@ this one is quite the easy step. all you have to do is to follow the instruction
 
 Basically just open a shell window and type the following line : 
 
-`` $ npm install -g strongloop  ``
+```bash 
+$ npm install -g strongloop  
+``
+
+for more information just go their website. 
+
+## Step 2 : creating the local server file
+
+To do so, you will have to create a folder in which you will save all your server files and then run a specific command : 
+
+``` bash
+	$ mkdir Test-Server
+	$ slc loopback 
+```
+
+then simply follow the instruction on the screen which means choosing a name for the server and the associated files. I would advise you to choose the same name to avoid confusions. 
+
