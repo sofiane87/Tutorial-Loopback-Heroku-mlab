@@ -34,8 +34,14 @@ First you need to create a Mongolab account, to do so you need to go to the [mon
 
 Once you've signed up, you will need to create a new Data base. To do so, just loging and click on the "create new" button. Select the appropriate type of Database you would like (there is a free option if you just wand to try it)
 
+create-new
+
+![Create a new database](create-new.png)
+
 
 Then, you will have to click on the database created ( which is now available on the main screen), and go to the Users tab and create a new user. this will give the proper credentials in order to properly communicate with the Database. 
+
+![create a new user](new-user.png)
 
 once the user  is signed up, just copy past the URI link provided above you will need it in the few next steps . 
 
