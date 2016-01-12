@@ -11,7 +11,7 @@ Basically just open a shell window and type the following line :
 
 ```bash 
 $ npm install -g strongloop  
-```
+``
 
 for more information just go their website. 
 
@@ -28,6 +28,9 @@ then simply follow the instruction on the screen which means choosing a name for
 ### Step 3 : configuring the MongoLab connection 
 
 First you need to create a Mongolab account, to do so you need to go to the [mongolab website](https://mongolab.com/signup/ "Signup Page") and signup .
+
+![singup page](signup-page.png)
+
 
 Once you've signed up, you will need to create a new Data base. To do so, just loging and click on the "create new" button. Select the appropriate type of Database you would like (there is a free option if you just wand to try it)
 
