@@ -69,3 +69,62 @@ once this is done, you will have to open the file TestSertver/server/datasources
 ```json 
 	"dataSource": "mongodb"
 ```
+
+Finally, you will have to go to the TestServer/package.json file and add the following line to the dependencies section : 
+
+```json
+
+    "loopback-connector-mongodb": "^1.13.2",
+
+```
+
+Once this is done, your database is now totally linked to your loopback server. Congrats ! 
+
+
+
+## Step 4 : Upload on heroku 
+
+The tutorial assumes that you have a free Heroku account, and that you have [Node.js and npm]( https://nodejs.org/en/download/ "Node.js and npm") installed locally. if not please click [here]( https://nodejs.org/en/download/ "Node.js and npm")to get them. 
+
+First of all you will have to create an account on heroku, to do so just go on the [heroku website](http://loopback.io/ "Loopback") and signup. 
+
+![singup page](heroku-signup.png)
+
+Once this is done, you will have to download and install the  [heroku toolkit](https://devcenter.heroku.com/articles/getting-started-with-nodejs#set-up "heroku toolkit")
+
+then start by defining the TestServer folder as a git folder, to do so, open a terminal and type the following lines :
+
+```bash 
+	$ cd TestServer
+	$ git init
+```
+
+Following to this, you will have to login into your heroku account through the bash window opened before :
+
+```bash
+	$ heroku login
+```
+
+Then enter your e-mail and password that you use to create your heroku account. you are now logged on your heroku account. We will then create a heroku app , to do so just type the following line on the command shell you previously opened 
+
+```bash
+  $ heroku create 
+```
+
+After that follow the instruction given on the shell command to upload your server online 
+
+```bash 
+  $ git add .
+  $ git commit -m "First commit"
+  $ git push heroku master
+```
+
+Once this is done, your server is online, you can open the webpage giving you access to the Rest API by type the following command : 
+
+```bash 
+  $ heroku open
+```
+
+
+
+
