@@ -64,7 +64,7 @@ add the following lines to the main braket :
 The URI link should start with something like : "mongodb://<dbuser>:<dbpassword>@ds..."  do not forget to replace the <dbuser> and <dbpassword> by your password and user information without the "<" and ">" symbols. 
 
 
-once this is done, you will have to open the file TestSertver/server/datasources.json and change all the lines corresponding to "datasource" to the following line : 
+once this is done, you will have to open the file TestSertver/server/modelconfig.json and change all the lines corresponding to "datasource" to the following line : 
 
 ```json 
 	"dataSource": "mongodb"
