@@ -9,7 +9,7 @@ This tutorial aims to provide a quick example of how to set up a loopback server
 Basically just open a shell window and type the following line : 
 
 ```bash 
-$ npm install -g strongloop  
+	$ npm install -g strongloop  
 ```
 
 for more information just go their website <a href="http://loopback.io/" target="_blank">loopback website</a>
