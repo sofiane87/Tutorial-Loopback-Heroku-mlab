@@ -5,7 +5,6 @@ This tutorial aims to provide a quick example of how to set up a loopback server
 
 ## Step 1 : installing Loopback
 
-this one is quite the easy step. all you have to do is to follow the instructions you can find on the loopback website [loopback website](http://loopback.io/ "Loopback"). 
 
 Basically just open a shell window and type the following line : 
 
@@ -13,7 +12,7 @@ Basically just open a shell window and type the following line :
 $ npm install -g strongloop  
 ```
 
-for more information just go their website. 
+for more information just go their website [loopback website](http://loopback.io/ "Loopback"). 
 
 ## Step 2 : creating the local server file
 
