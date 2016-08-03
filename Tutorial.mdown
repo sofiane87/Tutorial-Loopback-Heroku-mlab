@@ -19,7 +19,7 @@ for more information just go their website [loopback website](http://loopback.io
 To do so, you will have to go to a folder in which you will save all your server files and then run a specific command : 
 
 ``` bash
-	$ slc loopback # For the sake of this example, I would advise you to call your server TestServer
+	$ slc loopback # For the sake of this example, I would advise you to call your application TestServer
 ```
 
 then simply follow the instruction on the screen which means choosing a name for the server and the associated files. I would advise you to choose the same name to avoid confusions. 
