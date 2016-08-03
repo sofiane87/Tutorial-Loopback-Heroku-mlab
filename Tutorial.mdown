@@ -12,7 +12,7 @@ Basically just open a shell window and type the following line :
 $ npm install -g strongloop  
 ```
 
-for more information just go their website [loopback website](http://loopback.io/ "Loopback"). 
+for more information just go their website <a href="http://loopback.io/" target="_blank">loopback website</a>
 
 ## Step 2 : creating the local server file
 
@@ -26,7 +26,7 @@ then simply follow the instruction on the screen which means choosing a name for
 
 ### Step 3 : configuring the MongoLab connection 
 
-First you need to create a Mongolab account, to do so you need to go to the [mongolab website](https://mongolab.com/signup/ "Signup Page") and signup .
+First you need to create a Mongolab account, to do so you need to go to the <a href="https://mongolab.com/signup/" target="_blank">Signup Page</a> and signup .
 
 ![singup page](signup-page.png)
 
@@ -83,13 +83,13 @@ Once this is done, your database is now totally linked to your loopback server. 
 
 ## Step 4 : Upload on heroku 
 
-The tutorial assumes that you have a free Heroku account, and that you have [Node.js and npm]( https://nodejs.org/en/download/ "Node.js and npm") installed locally. if not please click [here]( https://nodejs.org/en/download/ "Node.js and npm")to get them. 
+The tutorial assumes that you have a free Heroku account, and that you have  <a href="https://nodejs.org/en/download/" target="_blank">Node.js and npm</a> installed locally. if not please click <a href="https://nodejs.org/en/download/" target="_blank">here</a> to get them. 
 
-First of all you will have to create an account on heroku, to do so just go on the [heroku website](http://loopback.io/ "Loopback") and signup. 
+First of all you will have to create an account on heroku, to do so just go on the <a href="https://signup.heroku.com/?c=70130000001x9jFAAQ" target="_blank">heroku website</a> and signup. 
 
 ![singup page](heroku-signup.png)
 
-Once this is done, you will have to download and install the  [heroku toolkit](https://devcenter.heroku.com/articles/getting-started-with-nodejs#set-up "heroku toolkit")
+Once this is done, you will have to download and install the <a href="https://devcenter.heroku.com/articles/getting-started-with-nodejs#set-up" target="_blank">heroku toolkit</a>
 
 then start by defining the TestServer folder as a git folder, to do so, open a terminal and type the following lines :
 
