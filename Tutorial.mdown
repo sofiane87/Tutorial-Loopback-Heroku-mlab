@@ -44,7 +44,7 @@ Then, you will have to click on the database created ( which is now available on
 
 once the user  is signed up, just copy past the URI link provided above you will need it in the few next steps . 
 
-once this is done. we will go back to the folder TestServer where the server files are saved, you will have to open the file TestServer/server/datasources.json
+once this is done. we will go back to the folder *TestServer* where the server files are saved, you will have to open the file TestServer/server/datasources.json
 
 add the following lines to the main braket :  
 
