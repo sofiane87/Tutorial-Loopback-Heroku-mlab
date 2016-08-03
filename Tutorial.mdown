@@ -121,9 +121,9 @@ After that follow the instruction given on the shell command to upload your serv
 Once this is done, your server is online, you can open the webpage giving you access to the Rest API by type the following command : 
 
 ```bash 
-  $ heroku open
+  $ heroku open /explorer
 ```
-*PS : the link that is oppened is incomplete, add "/explorer" at the end of the link or go directly http://TheNameOfYourApp.herokuapp.com/explorer*
+*PS : you can also go directly to http://TheNameOfYourApp.herokuapp.com/explorer*
 
 
 
