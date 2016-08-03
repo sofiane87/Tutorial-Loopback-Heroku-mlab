@@ -107,7 +107,7 @@ Following to this, you will have to login into your heroku account through the b
 Then enter your e-mail and password that you use to create your heroku account. you are now logged on your heroku account. We will then create a heroku app , to do so just type the following line on the command shell you previously opened 
 
 ```bash
-  $ heroku create 
+  $ heroku create TheNameOfYourApp
 ```
 
 After that follow the instruction given on the shell command to upload your server online 
@@ -123,6 +123,7 @@ Once this is done, your server is online, you can open the webpage giving you ac
 ```bash 
   $ heroku open
 ```
+*PS : the link that is oppened is incomplete, add "/explorer" at the end of the link or go directly http://TheNameOfYourApp.herokuapp.com*
 
 
 
